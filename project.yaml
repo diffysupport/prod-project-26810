@@ -1,0 +1,71 @@
+basic:
+    name: 'https://www.lebaroncarroll.com/'
+    environments:
+        production: 'https://www.lebaroncarroll.com/'
+        staging: 'https://jhahv911qn.wpdns.site/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /solutions
+        - /solutions/control-the-narrative
+        - /solutions/sustainable-safety-culture
+        - /solutions/identify-hidden-risk
+        - /specialties
+        - /specialties/agriculture
+        - /specialties/construction-trades
+        - /specialties/education
+        - /specialties/healthcare
+        - /specialties/human-services
+        - /specialties/manufacturing
+        - /specialties/real-estate
+        - /specialties/restaurant
+        - /specialties/technology
+        - /specialties/transportation
+        - /safety-and-risk
+        - /benefits
+        - /resources
+        - /resources/resource-center
+        - /resources/faq
+        - /resources/client-tools
+        - /about
+        - /about/our-team
+        - /about/careers
+        - /contact-us
+        - /a-farm-story-managing-insurance-costs
+        - /fleet-safety-training
+        - /i-9-compliance
+        - /insurance-products
+        - /privacy-policies
+        - /terms-conditions
+        - /accessibility-statement
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 10
+    scroll: false
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
